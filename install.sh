@@ -6,7 +6,7 @@ mkdir -p {/home/$USER/.local/bin,/home/$USER/.config,/home/$USER/.local/share/fo
 cp  ~/installation/dots/config/* ~/.config --recursive
 sudo chmod +wrx ~/.config/polybar/launch.sh
 # home
-cp  ~/installation/dots/home/. ~/ --recursive
+cp  ~/installation/dots/home/.* ~/ --recursive
 # fonts
 cp ~/installation/dots/fonts/* ~/.local/share/fonts  --recursive
 #scripts
